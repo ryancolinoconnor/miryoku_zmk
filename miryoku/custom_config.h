@@ -23,12 +23,3 @@ U_NA,    U_NA,      KC_DOT,    KC_0,      KC_MINS, U_NA,    U_NA,    U_NA,    U_
 
 // Change the T position (index 13 in the num layer) to apostrophe
 // Replace KC_6 above with KC_QUOT for apostrophe at T position
-
-#define MIRYOKU_LAYER_SYM \
-KC_LCBR, KC_AMPR,   KC_ASTR,   KC_LPRN,   KC_RCBR, U_NA,    U_NA,    U_NA,    U_NA,    U_NA,    \
-KC_COLN, KC_DLR,    KC_PERC,   KC_CIRC,   KC_PLUS, U_NA,    U_RSF,   U_RCT,   U_RAL,   U_RGU,   \
-KC_TILD, KC_EXLM,   KC_AT,     KC_HASH,   KC_PIPE, U_NA,    U_NA,    U_NA,    U_ALGR,  U_NA,    \
-U_NA,    U_NA,      KC_LPRN,   KC_RPRN,   KC_UNDS, U_NA,    U_NA,    U_NA,    U_NA,    U_NA
-
-// Change the T position (index 13) to double quote
-// Replace KC_CIRC above with S(KC_QUOT) for quote at T position
