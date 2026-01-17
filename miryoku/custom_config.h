@@ -21,8 +21,6 @@ U_NP,              U_NP,              U_LT(U_NAV, TAB),  U_LT(U_SYM, BSPC), U_LT
 #pragma once
 
 
-// Enable mouse keys
-#define MIRYOKU_KLUDGE_MOUSEKEYSPR
 // Your custom layer modifications
 #define MIRYOKU_LAYER_NUM \
 KC_LBRC, KC_7,      KC_8,      KC_9,      KC_RBRC, U_NA,    U_NA,    U_NA,    U_NA,    U_NA,    \
@@ -41,11 +39,3 @@ U_NA,    U_NA,      KC_LPRN,   KC_RPRN,   KC_UNDS, U_NA,    U_NA,    U_NA,    U_
 
 // Change the T position (index 13) to double quote
 // Replace KC_CIRC above with S(KC_QUOT) for quote at T position
-
-// Enable mouse keys
-#define MIRYOKU_LAYER_MOUSE \
-U_NA,    U_NA,      U_NA,      U_NA,      U_NA,    U_RDO,   U_PST,   U_CPY,   U_CUT,   U_UND,   \
-U_GU,    U_AL,      U_CT,      U_SF,      U_NA,    KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, U_NA,    \
-U_NA,    U_ALGR,    U_NA,      U_NA,      U_NA,    KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R, U_NA,    \
-U_NA,    U_NA,      U_NA,      U_NA,      U_NA,    KC_BTN1, KC_BTN3, KC_BTN2, U_NA,    U_NA
-
