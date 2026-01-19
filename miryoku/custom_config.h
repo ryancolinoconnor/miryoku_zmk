@@ -17,3 +17,4 @@ U_NA,       &kp AMPS,   &kp ASTR,   &kp LPAR,   &kp DQT,    &kp APOS,  &kp PIPE,
 U_NA,       &kp DOLLAR, &kp PRCNT,  &kp CARET,  U_NA,       U_NA,      &kp BSLH,  &kp GRAVE, &kp COLON, U_NA,      \
 U_NA,       &kp EXCL,   &kp AT,     &kp HASH,   U_NA,       U_NA,      &kp LT,    &kp GT,    &kp SLASH, U_NA,      \
 U_NP,       U_NP,       U_NA,       U_NA,       U_NA,       U_NA,      U_NA,      U_NA,      U_NP,      U_NP
+
