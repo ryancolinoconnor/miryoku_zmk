@@ -14,8 +14,7 @@ U_NP,              U_NP,              U_LT(U_NAV, TAB),  U_LT(U_SYM, BSPC), U_LT
 
 #define MIRYOKU_LAYER_SYM \
 &kp AMPS,  &kp ASTR,  &kp LPAR,  &kp RPAR,  &kp CIRC,   &kp PIPE,  &kp EQUAL, &kp MINUS, &kp BSLH,  &kp GRAVE, \
-&kp DOLLAR,&kp PERCENT,&kp CIRC, &kp PLUS,  &kp AT,     &kp EXCL,  &kp DQT,   &kp APOS,  &kp COLON, &kp SEMI,  \
-&kp EXCL,  &kp AT,    &kp HASH,  &kp DOLLAR,&kp PERCENT,&kp LT,    &kp GT,    &kp COMMA, &kp DOT,   &kp SLASH,\
+&kp DOLLAR,&kp PRCNT, &kp CIRC,  &kp PLUS,  &kp AT,     &kp EXCL,  &kp DQT,   &kp APOS,  &kp COLON, &kp SEMI,  \
+&kp EXCL,  &kp AT,    &kp HASH,  &kp DOLLAR,&kp PRCNT, &kp LT,    &kp GT,    &kp COMMA, &kp DOT,   &kp SLASH,\
 U_NP,      U_NP,      U_NA,      &kp RPAR,  U_NA,       U_NA,      U_NA,      U_NA,      U_NP,      U_NP
-
 
