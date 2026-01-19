@@ -11,4 +11,12 @@ jobs:
       board: '["nice_nano"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
       alphas: '["QWERTY"]'
-      kconfig: '["CONFIG_ZMK_POINTING=y"]'
+      kconfig: '[
+              "CONFIG_ZMK_POINTING=y",
+              "CONFIG_ZMK_MOUSE=y",
+              "CONFIG_ZMK_MOUSE_MOVE_DEFAULT_SPEED=25",
+              "CONFIG_ZMK_MOUSE_MOVE_MAX_SPEED=60",
+              "CONFIG_ZMK_MOUSE_MOVE_ACCELERATION=2",
+              "CONFIG_ZMK_MOUSE_SCROLL_DEFAULT_SPEED=6",
+              "CONFIG_ZMK_MOUSE_SCROLL_MAX_SPEED=12"
+            ]'
