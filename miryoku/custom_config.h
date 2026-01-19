@@ -12,12 +12,9 @@ U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp 
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_NAV, TAB),  U_LT(U_SYM, BSPC), U_LT(U_FUN, DEL),  U_LT(U_NUM,RET),U_LT(U_MOUSE, SPACE), U_LT(U_MEDIA, ESC),   U_NP,              U_NP
 
-
 #define MIRYOKU_LAYER_SYM \
-KC_LCBR, KC_AMPR,   KC_ASTR,   KC_LPRN,   KC_RCBR, U_NA,    U_NA,    U_NA,    U_NA,    U_NA,    \
-KC_COLN, KC_DLR,    KC_PERC,   KC_CIRC,   KC_PLUS, U_NA,    U_RSF,   U_RCT,   U_RAL,   U_RGU,   \
-KC_TILD, KC_EXLM,   KC_AT,     KC_HASH,   KC_PIPE, U_NA,    U_NA,    U_NA,    U_ALGR,  U_NA,    \
-U_NA,    U_NA,      KC_LPRN,   KC_RPRN,   KC_UNDS, U_NA,    U_NA,    U_NA,    U_NA,    U_NA
+&kp AMPS,  &kp ASTR,  &kp LPAR,  &kp RPAR,  &kp PLUS,   &kp CARET, &kp PIPE,  &kp EQUAL, &kp MINUS, &kp BSLASH, \
+&kp DOLLAR,&kp PERCENT,&kp CARET,&kp AT,    &kp HASH,   &kp EXCL,  &kp QUOTE, &kp APOS,  &kp COLON, &kp SEMI,  \
+&kp EXCL,  &kp AT,    &kp HASH,  &kp DOLLAR,&kp PERCENT,&kp LT,    &kp GT,    &kp COMMA, &kp DOT,   &kp SLASH, \
+U_NP,      U_NP,      U_NA,      &kp RPAR,  U_NA,       U_NA,      U_NA,      U_NA,      U_NP,      U_NP
 
-// Change the T position (index 13) to double quote
-// Replace KC_CIRC above with S(KC_QUOT) for quote at T position
