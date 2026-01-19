@@ -12,9 +12,8 @@ U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp 
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_NAV, TAB),  U_LT(U_SYM, BSPC), U_LT(U_FUN, DEL),  U_LT(U_NUM,RET),U_LT(U_MOUSE, SPACE), U_LT(U_MEDIA, ESC),   U_NP,              U_NP
 
-
 #define MIRYOKU_LAYER_SYM \
-U_NA,              &kp AMPS,          &kp ASTR,          &kp LPAR,          &kp SQT,           &kp APOS,          &kp PIPE,          &kp EQUAL,         &kp MINUS,         U_NA,              \
+U_NA,              &kp AMPS,          &kp ASTR,          &kp LPAR,          U_NA,           &kp APOS,          &kp PIPE,          &kp EQUAL,         &kp MINUS,         U_NA,              \
 U_NA,              &kp DOLLAR,        &kp PRCNT,         &kp CARET,         U_NA,              U_NA,              &kp BSLH,          &kp GRAVE,         &kp COLON,         U_NA,              \
 U_NA,              &kp EXCL,          &kp AT,            &kp HASH,          U_NA,              U_NA,              &kp LT,            &kp GT,            &kp SLASH,         U_NA,              \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NP,              U_NP
