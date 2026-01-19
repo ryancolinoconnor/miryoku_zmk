@@ -12,10 +12,9 @@ U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp 
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_NAV, TAB),  U_LT(U_SYM, BSPC), U_LT(U_FUN, DEL),  U_LT(U_NUM,RET),U_LT(U_MOUSE, SPACE), U_LT(U_MEDIA, ESC),   U_NP,              U_NP
 
-
 #define MIRYOKU_LAYER_SYM \
-&kp EXCL, &kp AT,   &kp HASH, &kp DLLR, &kp PRCNT, &kp CIRC, &kp AMPS, &kp ASTR, &kp LPAR, &kp RPAR, \
-&kp GRV,  &kp TILD, &kp PIPE, &kp BSLH, &kp PLUS,  &kp MINS, &kp DQT,  &kp APOS, &kp COLN, &kp SEMI, \
-&kp LBKT, &kp RBKT, &kp LCBR, &kp RCBR, &kp UNDS,  &kp LT,   &kp GT,   &kp COMM, &kp DOT,  &kp SLSH, \
-U_NP,     U_NP,     U_NA,     U_NA,     U_NA,      U_NA,    U_NA,     U_NA,     U_NP,     U_NP
+&kp AMPS,   &kp ASTR,   &kp LPAR,   &kp RPAR,   &kp CIRC,   &kp PIPE,  &kp EQUAL, &kp MINUS, &kp BSLH,  &kp GRAVE, \
+&kp DOLLAR, &kp PRCNT,  &kp PLUS,   &kp AT,     &kp HASH,   &kp EXCL,  &kp DQT,   &kp APOS,  &kp COLON, &kp SEMI,  \
+&kp EXCL,   &kp AT,     &kp HASH,   &kp DOLLAR, &kp PRCNT, &kp LT,    &kp GT,    &kp COMMA, &kp DOT,   &kp SLASH, \
+U_NP,       U_NP,       U_NA,       &kp RPAR,   U_NA,      U_NA,      U_NA,      U_NA,      U_NP,      U_NP
 
