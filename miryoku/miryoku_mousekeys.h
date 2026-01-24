@@ -2,7 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 #pragma once
-#define U_MOUSE_MOVE_MAX   25
+#define U_MOUSE_MOVE_MAX   100
 #define U_MOUSE_SCROLL_MAX 10
 
 
