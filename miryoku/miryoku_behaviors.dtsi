@@ -1,7 +1,7 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define U_MOUSE_MOVE 100
+#define U_MOUSE_MOVE 3400
 
 #define U_MS_U &mmv MOVE_Y(-U_MOUSE_MOVE)
 #define U_MS_D &mmv MOVE_Y(U_MOUSE_MOVE)
