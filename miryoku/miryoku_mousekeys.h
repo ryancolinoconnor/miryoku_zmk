@@ -2,7 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 #pragma once
-#define U_MOUSE_MOVE_MAX   100
+#define U_MOUSE_MOVE_MAX   3400
 #define U_MOUSE_SCROLL_MAX 10
 
 
@@ -20,6 +20,8 @@
 #define U_BTN2 &mkp MB2
 #define U_BTN3 &mkp MB3
 
+#undef MOVE_UP
+#undef MOVE_DOWN
 #define MOVE_UP    MOVE_Y(-U_MOUSE_MOVE_MAX)
 #define MOVE_DOWN  MOVE_Y(U_MOUSE_MOVE_MAX)
 #define MOVE_LEFT  MOVE_X(-U_MOUSE_MOVE_MAX)
